@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#hero-details{
+    display: flex;  
+    height: 100vh;
+}
+
+#right-div{
+    width: 50vw;
+    margin-left: 10%;
+    max-height:100vh ;
+    overflow-y: scroll;
+}
+#right-div p{
+    font-size: 1.3rem;
+}
+img{
+    height: 40vw;
+    width: 40vw;
+    border-radius: 50%;
+    margin: 10px;
+    box-shadow: inset;
+    -webkit-box-shadow:0 0 25px rgb(91, 86, 86);
+}
+header{
+    height: 10vh;
+    width: 100%;
+    color: white;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+header a{
+    color: white;
+    margin-left: 1%;
+}
+header>h1{
+    margin-left: 33%;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/0aa8ee66f8.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
+    <title>My Hero Hunter</title>
+    <body >
+        <!-- Header of the home page -->
+        <div id="app" > 
+            <header>
+                <h1>Hero Hunter</h1>
+                <div>
+                    <!-- Takes input from the user to send to js file -->
+                    <input type="text" placeholder="search a hero" id="search-bar" value="iron">
+                    <button onclick="searchHero()">Search</button>
+                </div>
+                <!-- A link to the page of favourite heroes -->
+                <a href="favourites.html"><i class="fa-solid fa-star"></i> &nbspFavourites</a>
+            </header>
+            <div id="search-result">
+
+            </div>
+            <main>
+                <!-- a div containing the list of some random heroes -->
+                <div id="hero-container" class="center">
+                    
+                </div>
+            </main>
+        </div>
+
+        <script src="index.js"></script>
+        <script src="favourite.js"></script>
+    </body>
+</html>

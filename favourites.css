@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+header{
+    height: 10vh;
+    width: 100%;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+header a{
+    color: black;
+    margin-left: 1%;
+}
+header>h1{
+    margin-left: 33%;
+}
+#favourites{
+    min-height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background: url('https://wallpapers.com/images/high/4k-marvel-in-space-utp7ze1y513jmlsn.webp');
+    background-size: contain;
+    background-attachment: fixed;
+    
+}
+
+.hero-card{
+    width: 20vw;
+    height: 30vh;
+    background-color: red;
+    color: black;
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: inset;
+    -webkit-box-shadow: 0 0 20px rgb(91, 86, 86);
+}
+.hero-card a{
+    color: black;
+}
+.hero-card img{
+    width: 100%;
+    height: 70%;
+    border-radius: 20px 20px 0 0;
+}
+.hero-card h2{
+    margin: 0;
+    display: inline;
+}
+.name-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 30%;
+    margin-left: 5%;
+}
+.fav{
+    background-color: white;
+}
