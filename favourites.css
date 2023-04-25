@@ -21,7 +21,7 @@ header>h1{
     min-height: 90vh;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
     background: url('https://wallpapers.com/images/high/4k-marvel-in-space-utp7ze1y513jmlsn.webp');
     background-size: contain;
